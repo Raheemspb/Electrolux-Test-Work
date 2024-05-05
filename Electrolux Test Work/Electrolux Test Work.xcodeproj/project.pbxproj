@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		AA07125E2BE7B5A0005F332D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07125D2BE7B5A0005F332D /* AppDelegate.swift */; };
 		AA0712602BE7B5A0005F332D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07125F2BE7B5A0005F332D /* SceneDelegate.swift */; };
-		AA0712622BE7B5A0005F332D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0712612BE7B5A0005F332D /* ViewController.swift */; };
+		AA0712622BE7B5A0005F332D /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0712612BE7B5A0005F332D /* FirstTabViewController.swift */; };
 		AA0712652BE7B5A0005F332D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0712632BE7B5A0005F332D /* Main.storyboard */; };
 		AA0712672BE7B5A2005F332D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0712662BE7B5A2005F332D /* Assets.xcassets */; };
 		AA07126A2BE7B5A2005F332D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0712682BE7B5A2005F332D /* LaunchScreen.storyboard */; };
+		AA40F3C52BE7BDF800041DCB /* PureLayout in Frameworks */ = {isa = PBXBuildFile; productRef = AA40F3C42BE7BDF800041DCB /* PureLayout */; };
+		AA40F3C82BE7BE0F00041DCB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AA40F3C72BE7BE0F00041DCB /* SDWebImage */; };
+		AA40F3CC2BE7BF7300041DCB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40F3CB2BE7BF7300041DCB /* TabBarController.swift */; };
+		AA40F3CE2BE7C18000041DCB /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40F3CD2BE7C18000041DCB /* SecondTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA07125A2BE7B5A0005F332D /* Electrolux Test Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electrolux Test Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA07125D2BE7B5A0005F332D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA07125F2BE7B5A0005F332D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA0712612BE7B5A0005F332D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA0712612BE7B5A0005F332D /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
 		AA0712642BE7B5A0005F332D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA0712662BE7B5A2005F332D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0712692BE7B5A2005F332D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA07126B2BE7B5A2005F332D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA40F3CB2BE7BF7300041DCB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AA40F3CD2BE7C18000041DCB /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA40F3C82BE7BE0F00041DCB /* SDWebImage in Frameworks */,
+				AA40F3C52BE7BDF800041DCB /* PureLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +66,9 @@
 			children = (
 				AA07125D2BE7B5A0005F332D /* AppDelegate.swift */,
 				AA07125F2BE7B5A0005F332D /* SceneDelegate.swift */,
-				AA0712612BE7B5A0005F332D /* ViewController.swift */,
+				AA0712612BE7B5A0005F332D /* FirstTabViewController.swift */,
+				AA40F3CD2BE7C18000041DCB /* SecondTabViewController.swift */,
+				AA40F3CB2BE7BF7300041DCB /* TabBarController.swift */,
 				AA0712632BE7B5A0005F332D /* Main.storyboard */,
 				AA0712662BE7B5A2005F332D /* Assets.xcassets */,
 				AA0712682BE7B5A2005F332D /* LaunchScreen.storyboard */,
@@ -83,6 +93,10 @@
 			dependencies = (
 			);
 			name = "Electrolux Test Work";
+			packageProductDependencies = (
+				AA40F3C42BE7BDF800041DCB /* PureLayout */,
+				AA40F3C72BE7BE0F00041DCB /* SDWebImage */,
+			);
 			productName = "Electrolux Test Work";
 			productReference = AA07125A2BE7B5A0005F332D /* Electrolux Test Work.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = AA0712512BE7B5A0005F332D;
+			packageReferences = (
+				AA40F3C32BE7BDF800041DCB /* XCRemoteSwiftPackageReference "PureLayout" */,
+				AA40F3C62BE7BE0F00041DCB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = AA07125B2BE7B5A0005F332D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0712622BE7B5A0005F332D /* ViewController.swift in Sources */,
+				AA0712622BE7B5A0005F332D /* FirstTabViewController.swift in Sources */,
+				AA40F3CE2BE7C18000041DCB /* SecondTabViewController.swift in Sources */,
+				AA40F3CC2BE7BF7300041DCB /* TabBarController.swift in Sources */,
 				AA07125E2BE7B5A0005F332D /* AppDelegate.swift in Sources */,
 				AA0712602BE7B5A0005F332D /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +378,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA40F3C32BE7BDF800041DCB /* XCRemoteSwiftPackageReference "PureLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PureLayout/PureLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		AA40F3C62BE7BE0F00041DCB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA40F3C42BE7BDF800041DCB /* PureLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA40F3C32BE7BDF800041DCB /* XCRemoteSwiftPackageReference "PureLayout" */;
+			productName = PureLayout;
+		};
+		AA40F3C72BE7BE0F00041DCB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA40F3C62BE7BE0F00041DCB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA0712522BE7B5A0005F332D /* Project object */;
 }
